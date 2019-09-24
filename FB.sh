@@ -9,7 +9,6 @@ pu='\033[37;1m' #putih
 ku='\033[33;1m' #kuning
 
 clear
-cd nil
 python2 key.py
 clear
 python2 code.py
@@ -81,7 +80,6 @@ then
 clear
 figlet -f slant "T U N G G U" | lolcat
 sleep 1
-cd nil
 python2 fbv3.py
 fi
 
